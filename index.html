@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site CV</title>
     <link rel="stylesheet" href="./style.css">
+    
 </head>
 <body>
     <header>
@@ -20,6 +21,10 @@
                 <li><a href="#">Technologies</a></li>
                 <li><a href="#">Projets</a></li>
                 <li><a href="#">Contact</a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
             </ul>
         </nav>
     </header>
@@ -63,18 +68,6 @@
             <br>
         </p>
     </section>
-
-    <script>
-        window.addEventListener("scroll",function(){
-            const header = document.querySelector('header');
-            header.classList.toggle('sticky', window.scrollY > 0);
-        });
-
-        const navigation = document.querySelector('nav');
-        document.querySelector('.toggle').onclick = function(){
-            this.classList.toggle('active');
-            navigation.classList.toggle('active');
-        }
-    </script>
+    <script src="./main.js"></script>
 </body>
 </html>
